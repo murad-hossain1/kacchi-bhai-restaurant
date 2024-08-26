@@ -1,0 +1,45 @@
+/* header section starts here  */
+.social-icon-1, .social-icon-2{
+    display: none;
+}
+/* header section ends here  */
+/* main section starts here  */
+    /* menu starts here  */
+    .menu__item{
+        width: 80%;
+    }
+
+    .menu__item ul{
+        justify-content: center;
+    }
+
+    .menu__card{
+        width: 45%;
+        margin: auto;
+    }
+    /* menu ends here  */
+
+    /* branch starts here  */
+    .branch__card{
+        width: 90%;
+    }
+
+    .branch__logo{
+        height: 450px;
+        width: 450px;
+    }
+    /* branch ends here  */
+    /* delivery starts here  */
+    .delivery{
+        flex-direction: column;
+    }
+    /* delivery ends here  */
+/* main section ends here  */
+/* footer section starts here  */
+    /* footer main starts here  */
+    .footer__main{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* footer main ends here  */
+/* footer section ends here  */

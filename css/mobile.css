@@ -1,0 +1,51 @@
+/* header section starts here  */
+#social-icon{
+    display: none;
+}
+/* header section ends here  */
+
+/* main section starts here  */
+    /* banner starts here  */
+    .banner__heading{
+        font-size: 0.8rem;
+        text-size-adjust: 100%;
+    }
+
+    .banner__heading-style{
+        font-size: 1.6rem;
+    }
+    /* banner ends here  */
+    /* menu starts here  */
+    .menu__card{
+        width: 90%;
+        margin: auto;
+    }
+
+    .menu__card-img{
+        height: 400px;
+        width: 400px;
+    }
+    /* menu ends here  */
+    /* user-group starts here  */
+    .user-group{
+        flex-direction: column;
+    }
+    /* user-group ends here  */
+/* main section ends here  */
+
+/* footer section starts here  */
+    /* footer main starts here  */
+    .footer__main-right{
+        flex-direction: column;
+        max-width: 90%;
+        padding: 0 30px;
+    }
+
+    .footer__right-info{
+        margin-top: 10px;
+    }
+    /* footer main ends here  */
+    /* footer bottom starts here  */
+
+    /* footer bottom ends here  */
+/* footer section ends here  */

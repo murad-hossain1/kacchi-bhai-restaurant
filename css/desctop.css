@@ -1,0 +1,117 @@
+/* header section starts here  */
+.navbar{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navbar__left{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0 30px;
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+    margin-top: 24px;
+    z-index: 5;
+}
+
+nav ul{
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+}
+
+#menu-icon{
+    display: inline;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn-style{
+    display: none;
+}
+
+.navbar__left-b{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar__left-b ul{
+    display: inline;
+}
+
+.btn-styles a{
+    background-color: var(--primary-color);
+    font-size: 1.2rem;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 20px;
+}
+/* header section ends here  */
+
+/* main section starts here  */
+    /* banner starts here  */
+    
+    /* banner ends here  */
+    /* menu starts here  */
+    .menu__item{
+        padding: 0 20px;
+    }
+
+    .menu__cards{
+        width: 90%;
+    }
+
+    .menu__card{
+        width: 45%;
+        margin: 20px 0;
+    }
+
+    .menu__card-img{
+        height: 280px;
+        width: 280px;
+    }
+    /* menu ends here  */
+
+    /* branch starts here  */
+    .branch{
+        width: 90%;
+    }
+
+    .branch__card{
+        width: 45%;
+    }
+
+    .branch__logo{
+        height: 350px;
+        width: 350px;
+    }
+    /* branch ends here  */
+    /* delivery starts here  */
+    
+    /* delivery ends here  */
+    /* user group starts here  */
+    .user-group{
+        max-width: 90%;
+    }
+    /* user group ends here  */
+/* main section ends here  */
+
+/* footer section starts here  */
+    /* footer main starts here  */
+    .footer__main-left{
+        margin-left: 30px;
+    }
+    /* footer main ends here  */
+    /* footer bottom starts here  */
+
+    /* footer bottom ends here  */
+/* footer section ends here  */
