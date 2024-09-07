@@ -226,6 +226,9 @@ html{
             font-size: 1.3rem;
             padding: 20px;
             text-align: center;
+            height: 50px;
+            width: 250px;
+            margin-bottom: 50px;
         }
 
         .menu__card-person{
