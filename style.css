@@ -31,6 +31,11 @@ html{
 .social-icon a:hover{
     color: var(--primary-color);
 }
+
+@font-face {
+    font-family: 'Li Shamim Noor Unicode';
+    src: url('../fonts/Li\ Shamim\ Noor\ Unicode.tt');
+}
 /* reset and common code ends here  */
 
 /* header section starts here  */
@@ -113,7 +118,7 @@ html{
         }
 
         .banner__heading{
-            font-family: "Baloo Da 2", system-ui;
+            font-family: 'Li Shamim Noor Unicode';
             color: white;
             font-size: 2rem;
             text-size-adjust: 100%;
