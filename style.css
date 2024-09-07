@@ -32,8 +32,11 @@ html{
     color: var(--primary-color);
 }
 
-
+@font-face {
+    font-family: 'Li Shamim Noor Unicode';
+    src: url('/fonts/Li\ Shamim\ Noor\ Unicode.ttf');
 }
+
 /* reset and common code ends here  */
 
 /* header section starts here  */
@@ -116,7 +119,7 @@ html{
         }
 
         .banner__heading{
-            
+            font-family: 'Li Shamim Noor Unicode';
             color: white;
             font-size: 2rem;
             text-size-adjust: 100%;
