@@ -34,7 +34,7 @@ html{
 
 @font-face {
     font-family: 'Li Shamim Noor Unicode';
-    src: url('/fonts/Li\ Shamim\ Noor\ Unicode.ttf');
+    src: url('../fonts/Li\ Shamim\ Noor\ Unicode.ttf');
 }
 
 /* reset and common code ends here  */
